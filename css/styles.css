@@ -140,3 +140,37 @@ header {
   cursor: pointer;
 }
 
+.footer-message {
+  background: rgba(169, 169, 169, .6);
+  text-align: center;
+  height: 100px;
+}
+
+.footer-message > p {
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.opt {
+  height: 50px;
+  line-height: 50px;
+  background: rgba(20, 0, 169, .45);
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  #todo-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  #lists {
+    width: 47%;
+  }
+  .list-area {
+    width: 100%;
+  }
+}
