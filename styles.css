@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4F4F4;
+}
+
+header {
+  text-align: center;
+}
+
+.add_todo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.add_todo #add-area {
+  height: 30px;
+  line-height: 30px;
+  user-select: none;
+  width: 60%;
+}
+
+.add_todo .add-btn {
+  background: rgba(20, 20, 20);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 23px;
+  line-height: 30px;
+  margin-left: 10px;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.add_todo .add-btn:hover {
+  opacity: .8;
+}
+
+/* #todo-app {
+  background: #FFFFE6;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}  */
+
+.list-wrapper {
+  background: #FFFFE6;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#lists {
+  padding: 0;
+}
+
+.font {
+  font-size: 30px;
+}
+
+#todo-app .lists {
+  width: 50%;
+}
+
+/* .lists {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.list-area {
+  width: 48%;
+  min-width: 300px;
+  min-height: 500px;
+  color: black;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 30px;
+  text-align: left;
+} 
+
+#todo-list {
+  background-color: rgba(232, 187, 0, .4);
+}
+
+#done-list {
+  background-color: rgba(0, 159, 232, 0.4);
+}
+
+.list-area ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#todo {
+  padding: 0;
+}
+
+#todo li{
+  left: 0;
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  width: 200px;
+  overflow: auto;
+}
+
+.list-btn {
+  height: 24px;
+  margin-right: 14px;
+  display: flex; 
+  user-select: none;
+}
+
+.trash-btn {
+  width: 40px;
+  height: 25px;
+  line-height: 25px;
+  background: white;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.done-btn {
+  width: 40px;
+  height: 25px;
+  line-height: 25px;
+  background: white;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-message {
+  background: rgba(169, 169, 169, .6);
+  text-align: center;
+  height: 100px;
+}
+
+.footer-message > p {
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.opt {
+  height: 50px;
+  line-height: 50px;
+  background: rgba(20, 0, 169, .45);
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  #todo-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  #lists {
+    width: 47%;
+  }
+  .list-area {
+    width: 100%;
+  }
+}
